@@ -10,9 +10,9 @@ You can use the number keys (0-9) on your keyboard to input numbers into the cal
 The following keys on the keyboard can be used for mathematical operators:
 
 +: Addition  
-  -: Subtraction
-   '*' or x: Multiplication
-  /: Division
+-: Subtraction
+'*' or x: Multiplication
+/: Division
 # Decimal Point:
 You can use the . key on your keyboard to input a decimal point in the calculator.
 
