@@ -3,7 +3,8 @@
 
 Use this calculator to calculate how much money you have!
 You can click on the calculator to use them or you can use the keyboard!
-see below for the keybinds
+See below for the keybinds  
+  live demo: https://muhamad-bilal.github.io/calculator/
 # Numbers:
 You can use the number keys (0-9) on your keyboard to input numbers into the calculator.
 
