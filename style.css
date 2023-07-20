@@ -1,0 +1,114 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'JelleeBold';
+    font-weight: normal;
+    font-style: normal;
+        background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,233,182,1) 100%);
+}
+
+.calculator{
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* min-height: 100vh; */
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+   gap: 6px;
+}
+
+.calculator > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: whitesmoke;
+
+}
+.calculator > button:hover{
+background-color: lightgreen;
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.screen{
+    border: solid 9px #0b6b32;
+    grid-column: 1/-1; 
+    background-color: darkgreen ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 11px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.screenup{
+    font-size: 1.5rem;
+    color: antiquewhite;
+
+
+}
+
+.screendown{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+ 
+#ac{
+    background-color: salmon;
+}
+#del{
+    background-color: rgb(45, 110, 238);
+}
+#op{
+    background-color: #0b6b32;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: rgb(74, 189, 20);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+.footer a {
+    text-decoration: none; 
+    color: #000; 
+    transition: color 0.3s; 
+  }
+  
+  
+  .footer a:hover {
+    color: blue; 
+    
+  }
+  
+  .img{
+    max-width: 100%; /* Set the maximum width of the image to 100% of its container */
+    max-height: 25px; /* Set the maximum height of the image to 100 pixels (you can adjust this as needed) */
+    margin: 0 auto;
+  }
+  

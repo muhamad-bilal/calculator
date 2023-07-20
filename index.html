@@ -4,38 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator</title>
+    <title> Money Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="money.png" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/jellee-typeface" type="text/css"/>
+
     <script src ="script.js" defer></script>
   </head>
   <body>
+    <h1>A calculator to calulate how much money you have </h1>
+    <div class="calculator-wrapper">
 	<div class="calculator">
         <div class="screen">
-            <div class="screenup"></div>
-            <div class="screendown"></div>
+            <div data-sc1 class="screenup"></div>
+            <div data-sc2 class="screendown"></div>
         </div>
-        <button class="span-two">AC</button>
-        <button>DEL</button>
-        <button>/</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>-</button>
-        <button>.</button>
-        <button>0</button>
-        <button class="span-two">=</button>
-
+        <button data-ac class="span-two" id="ac">AC</button>
+        <button data-del id="del">DEL</button>
+        <button data-op id="op">/</button>
+        <button data-num>1</button>
+        <button data-num>2</button>
+        <button data-num>3</button>
+        <button data-op id="op">*</button>
+        <button data-num>4</button>
+        <button data-num>5</button>
+        <button data-num>6</button>
+        <button data-op id="op">+</button>
+        <button data-num>7</button>
+        <button data-num>8</button>
+        <button data-num>9</button>
+        <button data-op id="op">-</button>
+        <button data-num>.</button>
+        <button data-num>0</button>
+        <button data-eq class="span-two" id="op">=</button>
+      </div>
 
 
 
 
     </div>
+    <footer class="footer">
+      <p>
+        Copyright ©
+        <a href="https://github.com/muhamad-bilal" target="_blank">muhammad-bilal</a>
+        <img class="img " src="github-mark.png"
+      </p>
+    </footer>
+    
+    </footer>
   </body>
 </html>
