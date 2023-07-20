@@ -11,7 +11,7 @@ The following keys on the keyboard can be used for mathematical operators:
 
 +: Addition  
   -: Subtraction
-  * or x: Multiplication
+   '*' or x: Multiplication
   /: Division
 # Decimal Point:
 You can use the . key on your keyboard to input a decimal point in the calculator.
